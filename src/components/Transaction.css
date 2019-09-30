@@ -1,0 +1,97 @@
+.transaction-container{
+    flex:2 0 200px;
+    padding: 24px;
+} 
+
+.transaction{
+    flex:2 0 300px;
+}
+
+.info{
+    font-size:14px;
+    padding: 12px 12px 24px 0px;
+    color:#808080;
+}
+
+.money-send{
+    border: 1px solid #749dab;
+    padding: 24px;
+    background-color:#f0f2f3;
+}
+
+.money-send .you-send{ 
+    color:#5ccada;
+}
+
+.label{
+    padding-bottom: 12px;
+}
+
+.float-right{
+    float:right;
+    padding-right: 12px;
+}
+
+.money-reciever{ 
+    border: 1px solid #749dab;
+    padding: 24px;
+    margin: 24px 0px 24px 0px;
+}
+
+.restrict{
+    font-size: 10px;
+    color:lightblue;
+    padding: 12px;
+}
+
+.receiver{
+    color:#d3d3d3;
+}
+
+.sent-container{
+    flex:1 0 200px !important;
+    padding:24px;
+}
+
+.sent-details{
+    margin:24px;
+    border: 1px solid lightgrey; 
+}
+
+.sent-details .receiver{
+    border-bottom:1px solid lightgrey; 
+    margin: 12px 0px 12px 0px;
+}
+
+.align-left{
+    padding: 12px;
+    color:lightgray;
+}
+
+.sent-border{
+    border: 1px solid lightgrey;
+    padding: 12px; 
+    margin:0px 0px 24px 0px;
+    color:black;
+}
+
+.color-blue{
+  color:#3a8096;
+}
+
+.saved{
+    padding-left:24px;
+    color: orange;
+    margin-bottom: 0px;
+}
+
+button{
+    background-color: #61bfde;
+    width:80px;
+    height:30px;
+    color:white;
+}
+
+.verify-button{
+    width: 120px;
+}

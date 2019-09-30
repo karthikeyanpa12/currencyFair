@@ -1,0 +1,9 @@
+{
+    "/transaction": {
+        "get": {
+            "rate": "0.86022",
+            "fee": "2.50",
+            "deliveryDate": "25th November"
+        }
+    }
+}

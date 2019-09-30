@@ -1,0 +1,21 @@
+
+.homepage{
+    display: flex;
+    padding: 28px;
+  }
+  
+  .homepage>div{
+    flex:2 0 200px;
+  }
+  
+  .tab-container>div span>span{
+     color:#5ccada !important;
+  }
+  
+  .title{
+      background-color: #4a4545;
+      height: 40px;
+      color: white;
+      padding: 12px 12px 0px 60px;
+  
+  }
