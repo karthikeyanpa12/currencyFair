@@ -1,13 +1,24 @@
+.homepage-container{
+  max-width: 900px;
+  margin:0 auto;
+  height: 100%;
+}
 
 .homepage{
     display: flex;
-    padding: 28px;
+    flex-direction: column;
+    height: 100%;
   }
   
   .homepage>div{
     flex:2 0 200px;
   }
-  
+
+  .tab-container{
+    padding: 28px;
+   border-right:1px solid lightgray;
+  }
+
   .tab-container>div span>span{
      color:#5ccada !important;
   }
@@ -17,5 +28,16 @@
       height: 40px;
       color: white;
       padding: 12px 12px 0px 60px;
-  
   }
+
+  @media screen and (min-width: 700px) {
+    .homepage {
+     flex-direction: row;
+    }
+    .modal{
+      width: 440px;
+      height:300px;
+      left:30%;
+    }
+  }
+ 

@@ -6,15 +6,15 @@ import SendDetails from './components/SendDetails';
 import './HomePage.css';
 
 const HomePage = () => (
-    <div>
-        <div className="title">currencyfair</div>
+    <div className="homepage-container">
+        <div className="title"><span>currencyfair</span></div>
         <div className="homepage">
             <div className="tab-container">
                 <Tabs activeTab='transaction'>
                     <TabList>
-                        <Tab component={CustomTab} label='Step 1 => Transaction info' id='transaction' />
-                        <Tab component={CustomTab} label='Step 2 => Recipient info' id='recipient' />
-                        <Tab component={CustomTab} label='Step 3 => Make Payment' id='payment' />
+                        <Tab component={CustomTab} label='Transaction info' id='transaction' />
+                        <Tab component={CustomTab} label='Recipient info' id='recipient' />
+                        <Tab component={CustomTab} label='Make Payment' id='payment' />
                     </TabList>
                     <TabList>
                         <TabPanel component={Transaction} id='transaction' />

@@ -1,6 +1,7 @@
 .modal {
-    width: 440px;
-    height:300px;
+    width: 300px;
+    left: 10%;
+    height: 400px;
     background: white;
     border: 1px solid #ccc;
     transition: 1.1s ease-out;
@@ -8,8 +9,7 @@
     opacity: 1;
     visibility: visible;
     position: fixed;
-    top: 30%;
-    left: 30%;
+    top: 30%; 
     transform: translateY(-50%,-50%);
   }
   
@@ -51,6 +51,7 @@
     width: 24px;
     height: 24px;
     padding-left: 6px;
+    border: 1px solid lightgray;
   }
 
   .small-font{
